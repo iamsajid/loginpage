@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+	function check() {
+   	var uname=document.getElementById("Username").value;	
+   	var pword=document.getElementById("password").value;
+   	if (uname=="sajidrahaman" && pword=="iamsajid")
+    {
+   		alert("congrats...!ValidUser");
+    }
+    else{
+    	alert("WrongPassword.....!")
+    }
+	}
+</script>
+<style type="text/css">
+	img{
+		margin-left: 45%;
+		border: 5px dotted yellow;
+		border-radius: 100%;
+	}
+	h1{
+		text-align: center;
+	}
+	body{
+		background-color: limegreen;
+	}
+	#mainwork{
+		border-style: solid;
+		margin-left: 40%;
+		margin-right: 40%;
+
+	}
+	table{
+		padding: 10%;
+	}
+	#si{
+		margin-left: 47%
+	}
+	#submit{
+		background-color:yellow;
+	}
+	h2{
+		text-align: center;
+	}
+	tr{
+		text-align: center;
+	}
+</style>
+<head>
+	<title>FirstloginPage</title>
+	<img src="image.jpg" height="110px" width="110px">
+	<h1>Welcome To Webdev</h1>
+	<h2>Sign in Here</h2>
+</head>
+<body>
+<form onsubmit="check()">
+<div id="mainwork">
+	<table>
+		<tr>
+		<td>Username</td>
+		</tr>
+		<tr>
+		<td><input type="text" placeholder="Hello" name="name" id="Username"></td>	
+		</tr>
+		<tr>
+		<td>password</td>
+		</tr>
+		<tr>
+		<td><input type="password" placeholder="Enter your password" name="password" id="password"></td>
+		</tr>
+	</table>
+	
+</div>
+<div id="si">    
+    <table>
+		<tr><input type="submit" value="SignIn" id="submit"></tr>
+	</table> 
+	</div>
+	
+	</form>
+</body>
+</html>
+
+
+
+
